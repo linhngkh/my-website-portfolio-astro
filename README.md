@@ -1,7 +1,7 @@
 ## Astro Modern Personal Website
 
 Astro Modern Personal Website
-## [Demo](https://linh-nguyenkhanh.github.io/linh-portfolio/)
+## [Demo](https://linhngkh.github.io/linh-portfolio/)
 
 ## Tech Stack
 
