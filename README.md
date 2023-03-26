@@ -1,10 +1,7 @@
-# Astro Modern Personal Website
+## Astro Modern Personal Website
 
-![Astro Modern Personal Website](public/social_img.png)
-
-
-
-## Demo
+Astro Modern Personal Website
+## [Demo](https://linh-nguyenkhanh.github.io/linh-portfolio/)
 
 ## Tech Stack
 
