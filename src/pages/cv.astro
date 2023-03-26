@@ -1,12 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
 ---
-
 <BaseLayout title="Resume">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
+  <!-- EDUCATION -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
   </div>
@@ -21,7 +22,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       subtitle="2017 - 2020 at Vaasa University of Applied Sciences"
     />
   </div>
-
+<!-- EXPERIENCE -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
   </div>
@@ -34,48 +35,46 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     />
     
      <TimeLineElement
-      title="Self-taught passionate Coder"
-      subtitle="Udemy course"
+      title="Finding My Passionate Career"
+      subtitle="Self-taught Coder"
       desc="I first became fascinated with programming last year when I spent time studying UI/UX design. As a person who looks for using aesthetic and efficient applications, I was hooked into coding. I research a lot about developer paths and as a marketer before, I decided to follow the path of becoming a Front End Developer.At my university, I did learn HTML, CSS, so I feel picking up Front End stack is pretty cool. Then I spent time learning Javascript at home."
     />
     <TimeLineElement
       title="Marketing Intern"
       subtitle="2019 Tampere"
       desc="I was a marketing intern at a small educational startup company. This opportunity has brought me to knowledge that buidling a great website from landing page, button action and so on for increasing traffics, SEO is really important."
-    />
-   
+    />  
   </div>
-
+<!-- CERTIFICATION -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
-  <ul class="list-none mx-6 mb-10 grid gap-2">   
-    <li>
-     <a href="https://drive.google.com/file/d/1gWaZAPRXIDNnRE7iXdMwxB26Evf_O4iS/view" target="_blank"
-     
-      >
-       👉 Talent Hackathon 2023 - City of Vantaa  </a
-      >
-    </li>
-    <li>
-      👉<a href="https://www.slideshare.net/KhanhLinhNguyen23/fullstack-dev-cert-2022pdf" target="_blank">
-        Full Stack Development Certificate</a
-      >
-    </li>
-    <li>
-      <a href="https://drive.google.com/file/d/1R9DsMRNx9HDvlbB4yBVrHP1YrPxb5f_6/view" target="_blank">
-      👉  YKI Testi</a
-      >
-    </li>
-   
-  </ul>
-
+   <HorizontalCard
+    title=" 👉 Talent Hackathon 2023 - City of Vantaa "
+    desc="Tackling challenge why people choose car over VR train? How we can solve this problem?"
+    url="https://drive.google.com/file/d/1gWaZAPRXIDNnRE7iXdMwxB26Evf_O4iS/view"
+    
+  />
+ <HorizontalCard
+    title=" 👉 Full Stack Development Certificate "
+    desc="The Shortcut Academy"
+    url="https://www.slideshare.net/KhanhLinhNguyen23/fullstack-dev-cert-2022pdf"
+    
+  />
+  <HorizontalCard
+    title="  👉  YKI Kielitutkinnot"
+    desc="Opetushallitus"
+    url="https://drive.google.com/file/d/1R9DsMRNx9HDvlbB4yBVrHP1YrPxb5f_6/view"
+    
+  />
+ <!-- SKILL -->
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
+  <ul class="list-none md:columns-5 columns-2 mx-6">
+
     <li>Spanish (Native)</li>
     <li>English (C2)</li>
     <li>JavaScript</li>
