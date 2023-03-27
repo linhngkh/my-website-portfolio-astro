@@ -1,7 +1,5 @@
 # Astro Modern Personal Website
 
-![Astro Modern Personal Website](public/social_img.png)
-
 
 
 ## Demo
