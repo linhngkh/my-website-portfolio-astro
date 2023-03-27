@@ -1,15 +1,11 @@
 ## Astro Modern Personal Website
-
-Astro Modern Personal Website
-## [Demo](https://linhportfolio101.netlify.app/)
+### [Demo](https://linhportfolio101.netlify.app/)
 A simple minimalized personal portfolio to showcase my project - made with Astro.
-## [Demo](https://linhngkh.github.io/linh-portfolio/)
-
-## Tech Stack
+### Tech Stack
 - [Astro](https://astro.build)
 - [tailwindcss](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
-## To deploy on Netlify
+### To deploy on Netlify
 1. ``npx astro add netlify``
 2. * create ``netlify.toml``file at the top of your project
     * inside this file, add: 
