@@ -1,6 +1,6 @@
 {
-  "homepage": "https://linhngkh.github.io",
-  "name": "linh-portfolio",
+  "homepage": "./",
+"description": "astro web",
   "type": "module",
   "version": "2.2.0",
   "private": true,
