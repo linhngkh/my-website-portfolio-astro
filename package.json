@@ -1,6 +1,6 @@
 {
-  "name": "Astro Personal Website",
-  "description": "Astro Modern personal website",
+  "homepage": "https://linhngkh.github.io",
+  "name": "linh-portfolio",
   "type": "module",
   "version": "2.2.0",
   "private": true,
