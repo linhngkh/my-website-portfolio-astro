@@ -1,10 +1,15 @@
 ## Astro Modern Personal Website
 ### [Demo](https://linhportfolio101.netlify.app/)
-A simple minimalized personal portfolio to showcase my project - made with Astro.
+A single minimalized personal portfolio to showcase my code projects and information - made with Astro.
 ### Tech Stack
 - [Astro](https://astro.build)
 - [tailwindcss](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
+
+### To clone it
+1. ``git clone https://github.com/linhngkh/astro-portfolio.git``
+2. Within the working directory, ``yarn``
+3. ``yarn dev``to run server, http://localhost:3000/
 ### To deploy on Netlify
 1. ``npx astro add netlify``
 2. * create ``netlify.toml``file at the top of your project
