@@ -8,7 +8,7 @@ A single minimalized personal portfolio to showcase my code projects and informa
 
 ### To clone it
 1. ``git clone https://github.com/linhngkh/astro-portfolio.git``
-2. Within the working directory, ``yarn``
+2. Within the working directory download all necessary dependencies, ``yarn`` 
 3. ``yarn dev``to run server, http://localhost:3000/
 ### To deploy on Netlify
 1. ``npx astro add netlify``
