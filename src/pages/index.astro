@@ -1,6 +1,7 @@
 ---
 import Scroller from "../components/Scroller";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Image from "../../public/portfolio-pattern.svg";
 ---
 
 <BaseLayout>
@@ -62,11 +63,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
     </section>
     <Scroller client:load />
-    <!-- <a
-      class="btn"
-      href="https://www.linkedin.com/in/linhh-nguyen22/"
-      target="_blank"
+
+    <section
+      id="project"
+      class="px-4 pb-12 border-black border-t-2 bg-teal-600 bg-fixed"
+      style={{ backgroundImage: "url(" + Image + ")" }}
     >
-    </a> -->
+    </section>
   </div>
 </BaseLayout>
