@@ -1,11 +1,11 @@
 ---
+import Scroller from "../components/Scroller";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
   <div class="border-black border-x-2">
-    <!-- <div class="text-xl py-1">Moi Folk 👋</div> -->
-    <section class="py-6 lg:py-15 xl:py-40">
+    <section class="py-6 md:py-20 xl:py-40">
       <div
         class="container mx-auto gap-8 px-4 flex flex-col md:flex-row items-center"
       >
@@ -61,7 +61,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </div>
       </div>
     </section>
-
+    <Scroller client:load />
     <!-- <a
       class="btn"
       href="https://www.linkedin.com/in/linhh-nguyen22/"
