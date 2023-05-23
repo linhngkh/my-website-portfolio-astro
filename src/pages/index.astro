@@ -38,7 +38,7 @@ import Image from "../../public/portfolio-pattern.svg";
             <a
               href="#project"
               class="px-6 py-4 rounded-md bg-teal-600 hover:bg-teal-700 text-white"
-              >Projects</a
+              >Explore Projects</a
             >
             <a
               href="/contact"
@@ -62,13 +62,33 @@ import Image from "../../public/portfolio-pattern.svg";
         </div>
       </div>
     </section>
+    <!-- marquee -->
     <Scroller client:load />
-
+    <!-- project  -->
     <section
       id="project"
       class="px-4 pb-12 border-black border-t-2 bg-teal-600 bg-fixed"
       style={{ backgroundImage: "url(" + Image + ")" }}
     >
+      <div class="container mx-auto">
+        <div class="text-white text-center py-12">
+          <h1 class="text-4xl lg:text-5xl xl:text-7xl font-bold mb-4">
+            Explore Projects
+          </h1>
+          <p class="max-w-xl mx-auto text-l">
+            I’m a passionate developer, contributing to <strong
+              >Frontend
+            </strong> and <strong>Backend</strong> for building software, web applications
+            or mobile apps with an eye for clean aesthetics and optimal <strong
+              >User Experience</strong
+            > via intuitive design.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 mb-28">
+          
+        </div>
+      </div>
     </section>
   </div>
 </BaseLayout>

@@ -4,7 +4,7 @@ A single minimalized personal portfolio to showcase my code projects and informa
 ### Tech Stack
 - [Astro](https://astro.build)
 - [tailwindcss](https://tailwindcss.com/)
-- [DaisyUI](https://daisyui.com/)
+- React
 
 ### To clone it
 1. ``git clone https://github.com/linhngkh/astro-portfolio.git``
