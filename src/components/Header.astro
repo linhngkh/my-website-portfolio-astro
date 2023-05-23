@@ -1,7 +1,12 @@
+---
+const activeClassName = "text-rose-600";
+const isActive = true;
+---
+
 <header
   class="grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-black border-2 bg-white"
 >
-  <a href="/" class="flex align-middle justify-center border-black border-r-2"
+  <a href="/" class="flex items-center justify-center border-black border-r-2"
     ><h1 class="text-2xl font-extrabold">Linh</h1></a
   >
 
@@ -30,7 +35,9 @@
     class="col-span-2 md:row-start-1 md:col-start-2 md:col-end-3 border-t-2 border-black md:border-t-0 flex items-center justify-center"
   >
     <ul class="flex gap-6 max-w-sm overflow-auto snap-always p-4 text-lg">
-      <li><a href="/">Home</a></li>
+      <li>
+        <a href="/" class={isActive ? activeClassName : undefined}>Home</a>
+      </li>
       <li><a href="/about">AboutMe</a></li>
       <li><a href="/contact">Contact</a></li>
       <li><a href="/project">Project</a></li>
