@@ -3,7 +3,7 @@ export const portfolioData = [
     title:"Kid Website Portdolio",
     img:"/xuka.png",
     desc:"A frond-end focused web to show optimal user interface with beautiful and intuitive web design",
-    url:"",
+    url:"https://xuka-thuyan.netlify.app/",
     badge:"NEW"
     }, {
         title: "Helsinki City Bikes App",

@@ -1,7 +1,9 @@
 ---
 import Scroller from "../components/Scroller";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Image from "../../public/portfolio-pattern.svg";
+import Image from "/portfolio-pattern.svg";
+import ProjectCard from "../components/ProjectCard";
+import Contact from "../components/Contact.astro";
 ---
 
 <BaseLayout>
@@ -84,11 +86,11 @@ import Image from "../../public/portfolio-pattern.svg";
             > via intuitive design.
           </p>
         </div>
-
-        <div class="grid md:grid-cols-2 gap-8 mb-28">
-          
-        </div>
+        <!-- project card -->
+        <ProjectCard />
       </div>
     </section>
+    <!-- contact -->
+    <Contact />
   </div>
 </BaseLayout>
