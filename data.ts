@@ -32,3 +32,20 @@ export const portfolioData = [
     badge:"PERSONAL PROJECT"
     }
 ]
+
+export const certification = [{
+    title: "👉 Talent Hackathon 2023 - City of Vantaa",
+    desc: "Tackling challenge why people choose car over VR train? How we can solve this problem?",
+    url:"https://drive.google.com/file/d/1gWaZAPRXIDNnRE7iXdMwxB26Evf_O4iS/view"
+},
+{
+    title: "👉 Full Stack Development Certificate ",
+    desc: "The Shortcut Spark Academy",
+    url:"https://www.slideshare.net/KhanhLinhNguyen23/fullstack-dev-cert-2022pdf"
+    },
+{
+    title: " 👉  YKI Kielitutkinnot",
+    desc: "Opetushallitus",
+    url:"https://drive.google.com/file/d/1R9DsMRNx9HDvlbB4yBVrHP1YrPxb5f_6/view"
+},
+]
