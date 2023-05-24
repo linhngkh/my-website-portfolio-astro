@@ -2,7 +2,57 @@
 const today = new Date();
 ---
 
-<footer class="footer footer-center block mb-5 pt-10">
+<header
+  class="grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-black border-2 bg-white"
+>
+  <a href="/" class="flex items-center justify-center border-black border-r-2"
+    ><h1 class="text-2xl font-extrabold">Linh</h1></a
+  >
+
+  <a
+    href="/contact"
+    class="md:col-start-3 border-black md:border-l-2 flex gap-2 items-center justify-center text-lg bg-yellow-300 hover:bg-yellow-500 ease-in-out duration-75"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width={1.5}
+      stroke="currentColor"
+      class="w-6 h-6"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+    </svg>
+
+    Let's Talk</a
+  >
+
+  <nav
+    class="col-span-2 md:row-start-1 md:col-start-2 md:col-end-3 border-t-2 border-black md:border-t-0 flex items-center justify-center"
+  >
+    <ul class="flex gap-6 max-w-sm overflow-auto snap-always p-4 text-lg">
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/about">AboutMe</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+      <li>
+        <a href="/projects">Project</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<!-- <footer
+  class="grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-black border-2 bg-white"
+>
   <div class="pb-2">
     &copy; {today.getFullYear()} Linh Nguyen
   </div>
@@ -15,4 +65,4 @@ const today = new Date();
     >
   </div>
 </footer>
-<style></style>
+<style></style> -->
