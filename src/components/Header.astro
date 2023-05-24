@@ -1,8 +1,3 @@
----
-const activeClassName = "text-rose-600";
-const isActive = true;
----
-
 <header
   class="grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-black border-2 bg-white"
 >
@@ -36,19 +31,19 @@ const isActive = true;
   >
     <ul class="flex gap-6 max-w-sm overflow-auto snap-always p-4 text-lg">
       <li>
-        <a href="/" class={isActive ? activeClassName : undefined}>Home</a>
+        <a href="/" class="hover:text-rose-600">Home</a>
       </li>
       <li>
-        <a href="/about">About</a>
+        <a href="/about" class="hover:text-rose-600">About</a>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <a href="/contact" class="hover:text-rose-600">Contact</a>
       </li>
       <li>
-        <a href="/projects">Project</a>
+        <a href="/projects" class="hover:text-rose-600">Project</a>
       </li>
       <li>
-        <a href="/cv">CV</a>
+        <a href="/cv" class="hover:text-rose-600">CV</a>
       </li>
     </ul>
   </nav>
