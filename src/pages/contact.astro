@@ -1,26 +1,22 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Scroller from "../components/Scroller";
-import Contact from "../components/Contact.astro";
 ---
 
 <BaseLayout>
   <section class="py-12 border-2 border-black">
     <div class="container mx-auto px-4 grid gap-8 lg:grid-cols-2">
       <div>
-        <h1 class="text-4xl lg:text-5xl xl:text-7xl font-bold mb-4">
-          My Story
-        </h1>
-        <p class="mb-2 text-lg">
-          Hi there, I'm Linh, a web developer. I choose to become a web
-          developer because that is what I am passionate and interested about.
-          It's like a magic box where I could use knowledge and build the real
-          things for life.
+        <h1 class="text-4xl lg:text-5xl xl:text-7xl font-bold mb-4">Contact</h1>
+        <p class="mb-6 text-lg">
+          Ever you want to contact me? If you're looking for a potential
+          creative web developer, have a burning question to ask me, or simply
+          want to interact, the quickest way is to hit me up on email.
         </p>
-        <p class="mb-2 text-lg">
-          I dedicate all my times for learning to code with the hope that I can
-          work for your company and together we can make the world different!
-        </p>
+        <a href="mailto:linh.nguyenkhanhib@gmail.com">
+          <p class="mb-6 text-lg">
+            Want my email: linh.nguyenkhanhib@gmail.com
+          </p></a
+        >
         <p class="font-bold text-lg mb-2">Find me on:</p>
         <div class="text-lg font-bold">
           <div class="flex gap-6">
@@ -47,16 +43,50 @@ import Contact from "../components/Contact.astro";
           </div>
         </div>
       </div>
-
+      <!-- form -->
       <div>
-        <img
-          src="/code.avif"
-          alt="coding"
-          class="border-black border-2 rounded-xl"
-        />
+        <form class="flex flex-col w-full mb-4">
+          <label
+            class="form-label inline-block mb-2 text-gray-700"
+            for="username"
+          >
+            Username:
+            <input
+              type="text"
+              name="username"
+              required
+              class="block w-full px-3 py-2 border-black border-2 rounded"
+            />
+          </label>
+          <label for="email" class="form-label inline-block mb-2 text-gray-700">
+            Email:
+            <input
+              type="email"
+              name="email"
+              required
+              class="block w-full px-3 py-2 border-black border-2 rounded"
+            />
+          </label>
+          <label
+            for="message"
+            class="form-label inline-block mb-2 text-gray-700"
+          >
+            Message
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              required
+              class="block w-full px-3 py-2 border-black border-2 rounded"
+            ></textarea>
+          </label>
+          <button
+            type="submit"
+            class="w-1/4 px-6 py-4 rounded-md bg-teal-600 hover:bg-teal-700 text-white"
+            >Send it!</button
+          >
+        </form>
       </div>
     </div>
   </section>
-  <Scroller client:load />
-  <Contact />
 </BaseLayout>
