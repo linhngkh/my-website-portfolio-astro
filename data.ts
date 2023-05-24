@@ -6,11 +6,11 @@ export const portfolioData = [
     url:"https://xuka-thuyan.netlify.app/",
     badge:"NEW"
     }, {
-        title: "Helsinki City Bikes App",
-        img: "/helbike.png",
-        desc: "A full stack app for displaying journey and station bikes information on table with sorting, searching, paginating and showing a map.",
-        url: "",
-        badge: "PRE-ASSIGNMENT",
+        title: "React Fitness Landing Page",
+        img: "/fitness.png",
+        desc: "Practicing frontend design with TailwindCSS, framer-motion and basic TypeScript for type safe.",
+        url: "https://fitness-ui.netlify.app/",
+       badge:"PERSONAL PROJECT"
     },
     {
     title:"Helsinki City Bikes App",
