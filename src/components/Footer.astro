@@ -2,7 +2,7 @@
 const today = new Date();
 ---
 
-<header
+<footer
   class="grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-black border-2 bg-white"
 >
   <a href="/" class="flex items-center justify-center border-black border-r-2"
@@ -30,39 +30,15 @@ const today = new Date();
     Let's Talk</a
   >
 
-  <nav
-    class="col-span-2 md:row-start-1 md:col-start-2 md:col-end-3 border-t-2 border-black md:border-t-0 flex items-center justify-center"
+  <div
+    class="col-span-2 md:row-start-1 md:col-start-2 md:col-end-3 border-t-2 border-black md:border-t-0 flex items-center justify-center p-4 text-center"
   >
-    <ul class="flex gap-6 max-w-sm overflow-auto snap-always p-4 text-lg">
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/about">AboutMe</a>
-      </li>
-      <li>
-        <a href="/contact">Contact</a>
-      </li>
-      <li>
-        <a href="/projects">Project</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-<!-- <footer
-  class="grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-black border-2 bg-white"
->
-  <div class="pb-2">
-    &copy; {today.getFullYear()} Linh Nguyen
-  </div>
-  <div class="inline opacity-75">
-    <a href="" target="_blank" class="font-bold">Write Code</a> with
+    &copy; {today.getFullYear()} &nbsp;
     <a
       href="https://github.com/linh-nguyenkhanh"
       target="_blank"
-      class="font-bold">Love ❤️</a
+      class="font-bold hover:underline">Linh Nguyen</a
     >
+    &nbsp; &#9679; Write Code with Love ❤️
   </div>
 </footer>
-<style></style> -->
