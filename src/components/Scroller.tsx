@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 
-export default function Scroller() {
+const Scroller = () => {
   return (
     <section>
       <a href="/contact">
@@ -15,4 +15,6 @@ export default function Scroller() {
       </a>
     </section>
   );
-}
+};
+
+export default Scroller;
