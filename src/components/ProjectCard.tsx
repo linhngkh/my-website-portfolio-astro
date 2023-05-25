@@ -14,13 +14,14 @@ const ProjectCard = () => {
               <img src={item.img} alt={item.desc} />
             </div>
 
-            <div className="bg-white border-x-2 border-black border-b-2 rounded-bl-xl rounded-br-xl mx-4 p-4 flex justify-between gap-4 items-center">
+            <div className="bg-white border-x-2 border-black border-b-2 rounded-bl-xl rounded-br-xl mx-4 p-4 flex justify-between gap-4 items-center ">
               <div>
                 <span className="font-bold text-xl ">{item.title} </span>
                 <span className="text-zinc-400 text-sm">
                   &#9679; {item.badge}
                 </span>
               </div>
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
