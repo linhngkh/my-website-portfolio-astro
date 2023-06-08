@@ -9,8 +9,8 @@ const Scroller = () => {
           gradient={false}
           className="bg-yellow-300 border-t-2 border-black py-2 font-bold text-3xl"
         >
-          🌟 Let's get to work! 🌟 Have a project in mind? 🌟 Let's get to work!
-          🌟 Have a project in mind?
+          🌟 Hey, my future employer! 🌟 Have a project in mind? 🌟 Let's get to
+          work!
         </Marquee>
       </a>
     </section>
