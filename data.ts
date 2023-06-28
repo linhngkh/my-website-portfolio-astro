@@ -3,7 +3,7 @@ export const portfolioData = [
         title: "E-commerce Furniture Landing Page",
         img: "/furniture.png",
         desc: "Practicing frontend skill with TailwindCSS, framer-motion, manage folder structure for big project and make reusable components",
-        url: "frontend-furniture.web.app",
+        url: "https://frontend-furniture.web.app",
         badge: "PERSONAL PROJECT",
        source:"https://github.com/linhngkh/react-fitness-landing-page"
     },
