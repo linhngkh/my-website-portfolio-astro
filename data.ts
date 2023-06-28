@@ -1,15 +1,16 @@
 export const portfolioData = [
 {
-    title:"Kid Website Portdolio",
-    img:"/xuka.png",
-    desc:"A frond-end focused web to show optimal user interface with beautiful and intuitive web design",
-    url:"https://xuka-thuyan.netlify.app/",
+        title: "E-commerce Furniture Landing Page",
+        img: "/furniture.png",
+        desc: "Practicing frontend skill with TailwindCSS, framer-motion, manage folder structure for big project and make reusable components",
+        url: "frontend-furniture.web.app",
         badge: "PERSONAL PROJECT",
-   source:"https://github.com/linhngkh/kid-website-portfolio"
-    }, {
+       source:"https://github.com/linhngkh/react-fitness-landing-page"
+    },
+    {
         title: "React Fitness Landing Page",
         img: "/fitness.png",
-        desc: "Practicing frontend design with TailwindCSS, framer-motion and basic TypeScript for type safe.",
+        desc: "Practicing frontend skill with TailwindCSS, framer-motion and basic TypeScript for type safe.",
         url: "https://fitness-ui.netlify.app/",
         badge: "PERSONAL PROJECT",
        source:"https://github.com/linhngkh/react-fitness-landing-page"
@@ -21,7 +22,16 @@ export const portfolioData = [
     url:"https://helsinki-citybikess.netlify.app/",
         badge: "PRE-ASSIGNMENT",
     source:"https://github.com/linhngkh/helsinki-bike-frontend"
-    }, {
+    },
+    {
+    title:"Kid Website Portdolio",
+    img:"/xuka.png",
+    desc:"A frond-end focused web to show optimal user interface with beautiful and intuitive web design",
+    url:"https://xuka-thuyan.netlify.app/",
+        badge: "PERSONAL PROJECT",
+   source:"https://github.com/linhngkh/kid-website-portfolio"
+    },
+    {
          title:"Wikimedia Project Course",
     img:"/wikimedia.png",
     desc:"This web shows team's project with Back-end for Tabular Data and Front-end React for Muisnaimuistot web-app",
