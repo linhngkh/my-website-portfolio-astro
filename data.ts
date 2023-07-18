@@ -1,4 +1,12 @@
 export const portfolioData = [
+    {
+        title: "Uber Eats Clone Website",
+        img: "/uber-eats.png",
+        desc: "Practicing Next.js framework and Typescript to clone Uber Eats website",
+        url: "https://uber-eats-clone-seven.vercel.app/",
+        badge: "PERSONAL PROJECT",
+       source:"https://github.com/linhngkh/uber-eats-clone"
+    },
 {
         title: "E-commerce Furniture Landing Page",
         img: "/furniture.png",
