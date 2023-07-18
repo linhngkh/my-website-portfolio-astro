@@ -1,5 +1,5 @@
 ## Astro Modern Personal Website
-### [Demo](https://linhjoey-portfolio.netlify.app/)
+### [Demo](https://www.zoelinh.com//)
 A single minimalized personal portfolio to showcase my code projects and information - made with Astro.
 ### Tech Stack
 - [Astro](https://astro.build)
