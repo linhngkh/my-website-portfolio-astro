@@ -56,7 +56,13 @@ export const portfolioData = [
     }
 ]
 
-export const certification = [{
+export const certification = [
+    {
+    title: "👉 Full Stack Open -  University of Helsinki",
+    desc: "Learning Full Stack for Web Development",
+    url:"https://drive.google.com/file/d/1xc-U7uPq926_mBzuoakkVbQTkVCF1feZ/view"
+},
+    {
     title: "👉 Talent Hackathon 2023 - City of Vantaa",
     desc: "Tackling challenge why people choose car over VR train? How we can solve this problem?",
     url:"https://drive.google.com/file/d/1gWaZAPRXIDNnRE7iXdMwxB26Evf_O4iS/view"
@@ -70,5 +76,10 @@ export const certification = [{
     title: " 👉  YKI Kielitutkinnot",
     desc: "Opetushallitus",
     url:"https://drive.google.com/file/d/1R9DsMRNx9HDvlbB4yBVrHP1YrPxb5f_6/view"
+    },
+{
+    title: " 👉  User Experience Design Essentials",
+    desc: "Udemy UI/UX course - Instructor: Daniel Wanter Scott",
+    url:"https://www.slideshare.net/KhanhLinhNguyen23/user-experience-design-essentials-pdf"
 },
 ]
