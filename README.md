@@ -5,8 +5,8 @@ A single minimalized personal portfolio to showcase my code projects and informa
 - [Astro](https://astro.build)
 - [tailwindcss](https://tailwindcss.com/)
 - React.js
-- Framer motion(https://www.framer.com/motion/component/)
-- Astro Lottie(https://socket.dev/npm/package/astro-integration-lottie)
+- [Framer motion](https://www.framer.com/motion/component/)
+- [Astro Lottie](https://socket.dev/npm/package/astro-integration-lottie)
 
 ### To clone it
 1. ``git clone https://github.com/linhngkh/astro-portfolio.git``
