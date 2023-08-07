@@ -1012,6 +1012,11 @@ astring@^1.8.0:
   resolved "https://registry.npmjs.org/astring/-/astring-1.8.4.tgz"
   integrity sha512-97a+l2LBU3Op3bBQEff79i/E4jMD2ZLFD8rHx9B6mXyB2uQwhJQYfiDqUwtfjF4QA1F2qs//N6Cw8LetMbQjcw==
 
+astro-integration-lottie@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/astro-integration-lottie/-/astro-integration-lottie-0.2.3.tgz"
+  integrity sha512-9foOU6B4nv9EAzFnsxAT6LxAu2Q14nntgKhLNrhDGj6Ob3SrdxNv6rTj9YFXTfv0p1UORwNYth2fMhO8+vRvpQ==
+
 astro@^2.5.0:
   version "2.5.4"
   resolved "https://registry.npmjs.org/astro/-/astro-2.5.4.tgz"
@@ -2262,6 +2267,11 @@ loose-envify@^1.1.0:
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lottie-web@^5.12.2:
+  version "5.12.2"
+  resolved "https://registry.npmjs.org/lottie-web/-/lottie-web-5.12.2.tgz"
+  integrity sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==
 
 lru-cache@^5.1.1:
   version "5.1.1"
